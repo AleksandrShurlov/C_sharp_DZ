@@ -9,9 +9,9 @@
 
 void PrintArray(int[,] matr)
 {
-    for (int i = 0; i < matr.GetLength(0); i++) // вместо i < matrix.GetLength(0); можно написать i < 3; т.к. размерность [3, 4]
+    for (int i = 0; i < matr.GetLength(0); i++)
     {
-        for (int j = 0; j < matr.GetLength(1); j++) // вместо j < 4 matrix.GetLength(1); можно написать j < 4; т.к. размерность [3, 4]
+        for (int j = 0; j < matr.GetLength(1); j++)
         {
             Console.Write($"{matr[i, j]} ");
         }
