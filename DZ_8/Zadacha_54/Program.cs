@@ -50,11 +50,15 @@ void BebbleSortRows(int[,] matr)
     }
 }
 
-int[,] matrix = new int[7, 10];
+void StartMethod()
+{
+    int[,] matrix = new int[7, 10];
 
-FillArray(matrix);
-PrintArray(matrix);
-Console.WriteLine();
-BebbleSortRows(matrix);
-PrintArray(matrix);
+    FillArray(matrix);
+    PrintArray(matrix);
+    Console.WriteLine();
+    BebbleSortRows(matrix);
+    PrintArray(matrix);
+}
 
+StartMethod();
